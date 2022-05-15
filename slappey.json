@@ -1,0 +1,7 @@
+{
+  "name": "dashboardv2-bot",
+  "language": "javascript",
+  "manager": "yarn",
+  "token": "",
+  "prefix": "!"
+}
