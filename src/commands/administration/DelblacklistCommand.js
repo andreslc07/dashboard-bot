@@ -30,7 +30,7 @@ module.exports = class DelblacklistCommand extends BaseCommand {
     }
     try {
       const filter = { id: userId };
-      await blacklist.deleteOne(filter, function (err, doc) {
+      blacklist.deleteOne(filter, function (err, doc) {
         if (err) {
           return message.channel.send("Hubo un error: " + err.message);
         }
