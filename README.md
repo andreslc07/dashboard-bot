@@ -1,3 +1,4 @@
+### Deprecated
 # Dashboard Bot
 
 > Este es un bot Open Source el cual consta de un dashboard representado en un Discord Bot
